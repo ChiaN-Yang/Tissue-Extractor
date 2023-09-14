@@ -1,0 +1,1 @@
+python tools/infer.py --yaml data/dataset.yaml --weights runs/train/exp1/weights/best_ckpt.pt --source ../custom_dataset/images/val --device 0 --save-txt --not-save-img
